@@ -1,0 +1,151 @@
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    opacity: 0.4;
+}
+
+a:hover {
+    color: blue;
+}
+
+button:hover {
+    color: blue;
+}
+
+.button-header {
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    display: inline-block;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    cursor: pointer;
+}
+
+.button-header:active {
+    opacity: 0.4;
+}
+
+header {
+    margin-left: 42px;
+    margin-top: 47px;
+}
+
+.links-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-right: 32px;
+    color: #17233D;
+}
+
+.image {
+    width: 595px;
+    height: 500px;
+}
+
+p {
+    margin-top: 47px;
+    margin-bottom: 55px;
+    font-weight: 400;
+    font-size: 18px;
+    width: 493px;
+    height: 99px;
+    color: #4B505A;
+    letter-spacing: 0.5px;
+    line-height: 33px;
+}
+
+.website-body {
+    display: inline-block;
+    margin-left: 45px;
+    margin-bottom: 114px;
+}
+ .div2 {
+    margin-top: 95px;
+    margin-left: 100px;
+    margin-bottom: 102px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    width: 582px;
+    color: #161A49;
+    letter-spacing: 0.596154px;
+}
+
+.learn-more {
+    line-height: 27px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #6FBF44;
+}
+
+@media screen and (max-width: 600px) {
+    .links-header {
+        display: none;
+    }
+
+    .div2 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0;
+        margin-top: 15%;
+        align-items: center;
+    }
+
+    header {
+        margin: 0;
+        display: flex;
+        justify-content: end;
+    }
+
+    .button-header {
+        margin-top: 17px;
+        margin-right: 15px;
+    }
+
+    .image {
+        width: 80%;
+        height: auto;
+        margin-top: 59px;
+    }
+
+    .website-body {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 30px;
+        width: 278px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 18px;
+        width: 304px;
+        height: 165px;
+        margin: 29px 0 26px 0;
+        text-align: center;
+    }
+
+}
